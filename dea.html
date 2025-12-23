@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produk Premium | Official Store</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(135deg, #111827, #4f46e5);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.6rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #a81194;
+      color: white;
+      padding: 14px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #16a34a;
+    }
+
+    /* SECTION */
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .section-title p {
+      color: #6b7280;
+    }
+
+    /* BENEFIT */
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .benefit-card {
+      background: white;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.06);
+      text-align: center;
+    }
+
+    .benefit-card h3 {
+      color: #4f46e5;
+      margin-bottom: 10px;
+    }
+
+    /* PRODUCT */
+    .product {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      align-items: center;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 16px;
+    }
+
+    .product-info h3 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-size: 2rem;
+      color: #22c55e;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: #9ca3af;
+      font-size: 1.1rem;
+    }
+
+    /* TESTIMONI */
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .testimonial-card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+
+    .testimonial-card strong {
+      display: block;
+      margin-top: 10px;
+      color: #4f46e5;
+    }
+
+    /* CTA */
+    .cta {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    footer {
+      background: #020617;
+      color: #9ca3af;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Produk Premium yang Bikin Hidup Lebih Mudah</h1>
+    <p>
+      Solusi modern untuk kamu yang ingin kualitas, kenyamanan,
+      dan hasil maksimal tanpa ribet.
+    </p>
+    <a href="#buy" class="btn">Beli Sekarang</a>
+  </div>
+
+  <!-- BENEFITS -->
+  <section>
+    <div class="section-title">
+      <h2>Kenapa Pilih Produk Ini?</h2>
+      <p>Keunggulan utama yang bikin pelanggan puas</p>
+    </div>
+
+    <div class="benefits">
+      <div class="benefit-card">
+        <h3>Kualitas Terbaik</h3>
+        <p>Material premium dan proses produksi terjamin.</p>
+      </div>
+      <div class="benefit-card">
+        <h3>Tahan Lama</h3>
+        <p>Digunakan bertahun-tahun tanpa penurunan kualitas.</p>
+      </div>
+      <div class="benefit-card">
+        <h3>Desain Modern</h3>
+        <p>Cocok untuk gaya hidup masa kini.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT DETAIL -->
+  <section id="buy">
+    <div class="product">
+      <img src="https://via.placeholder.com/500x500" alt="Produk">
+
+      <div class="product-info">
+        <h3>Nama Produk Unggulan</h3>
+        <p>
+          Produk ini dirancang khusus untuk memberikan kenyamanan,
+          performa maksimal, dan tampilan elegan dalam satu paket.
+        </p>
+
+        <div class="price">
+          Rp299.000 <span class="old-price">Rp499.000</span>
+        </div>
+
+        <a href="https://www.instagram.com/lucubangetkk.reall/" class="btn">Pesan Sekarang</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONI -->
+  <section>
+    <div class="section-title">
+      <h2>Apa Kata Pelanggan?</h2>
+      <p>Pengalaman nyata dari pengguna kami</p>
+    </div>
+
+    <div class="testimonials">
+      <div class="testimonial-card">
+        "Produk ini benar-benar membantu aktivitas harian saya.
+        Kualitasnya di atas ekspektasi!"
+        <strong>— Andi</strong>
+      </div>
+
+      <div class="testimonial-card">
+        "Desainnya keren dan nyaman dipakai.
+        Pasti beli lagi."
+        <strong>— Rina</strong>
+      </div>
+
+      <div class="testimonial-card">
+        "Worth it banget dengan harga segini."
+        <strong>— Dimas</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta">
+    <h2>Stok Terbatas!</h2>
+    <p>Jangan sampai kehabisan, amankan produkmu sekarang</p>
+    <br>
+    <a href="#" class="btn">Beli Sekarang</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 | Official Product Marketing Page
+  </footer>
+
+</body>
+</html>
